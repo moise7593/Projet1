@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajouter un Nom</title>
+    <title>Projet</title>
     <script>
         async function ajouterNom() {
             const nom = document.getElementById('nom').value;
