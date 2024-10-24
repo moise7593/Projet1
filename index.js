@@ -7,7 +7,7 @@
     <script>
         async function ajouterNom() {
             const nom = document.getElementById('nom').value;
-            const response = await fetch('http://<adresse_IP_de_ta_VM>:3000/ajouter-nom', {
+            const response = await fetch('http://20.199.94.57:3000/backend-api-vm', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
